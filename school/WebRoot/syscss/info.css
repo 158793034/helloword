@@ -1,0 +1,91 @@
+/*
+
+  本样式文件用于信息显示页面
+*/
+
+/* 信息显示表格属性*/
+#table {
+	width: 60%;
+	font-size: 12px;
+
+	text-align: center;
+	margin-left: 120px;
+	margin-top: 80px;
+	border-collapse: collapse; /* 边框合并  */
+}
+/* 第一行头文件信息  */
+#table thead td {
+	border-bottom: 1px solid silver;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 14px;
+	hnjjjjjjjjjj7unu
+}
+/*  每一行显示底线为银色 */
+#table tbody td {
+	border-bottom: 1px solid silver;
+}
+/*  信息显示表格  最左侧编号 td  */
+#table tbody tr td:FIRST-CHILD { /*  第一个td    */
+	font-size: 13px;
+	font-weight: bold;
+}
+/*  信息显示光标浮动  */
+#table tbody tr:HOVER { /* 光标跟随    */
+	background-color: #eeffcc;
+}
+/*  删除按钮样式  */
+.bu_delete {
+	border-radius: 6px;
+	box-shadow: #ffffff inset;
+	float: right; height : 22px;
+	font-size: 12px;
+	height: 22px;
+}
+/*  按钮基本样式  */
+#table button {
+	border-radius: 6px;
+	box-shadow: #ffffff inset;
+	float: left;
+	height: 22px;
+	font-size: 9px;
+	background-color:#ffffff;
+	
+}
+/*  右上角4分之1圆 */
+.bt_insert {
+	background-color: #AACCE5;
+	width: 60px;
+	height: 60px;
+	float: right;
+	margin-top: -40px;
+	margin-right: -6px;
+	border-radius: 0px 6px 0px 100px
+}
+/*右上角4分之1圆   添加按钮样式  */
+.bt_insert button{
+border:0px;color:#ffffff;
+background-color:transparent;    /* 背景色是穿透     */
+
+margin-top:20px;
+margin-left:20px;
+}
+/*右上角4分之1圆   光标浮动样式*/
+.bt_insert:HOVER{
+background-color:#6188AE;
+}
+
+/* 分页工具栏样式  */
+#bu_index{
+right:16px;
+width:50px;
+position:absolute;
+top:100px;
+}
+/*分页工具栏按钮  */
+#bu_index button{
+border:0px;background-color:#6188AE;color:#ffffff;
+width:30px;height:50px;
+border-radius:19px 0px 19px 0px;
+margin-top:6px;
+}

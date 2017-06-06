@@ -1,0 +1,46 @@
+
+/* 基本表格外观 */
+#table_update{
+margin:auto;
+width:500px;
+font-size:14px;
+line-height:36px;
+margin-top:60px;
+font-weight:bold;
+}
+/* 选项文本 */
+#table_update tr td:FIRST-CHILD{
+  text-align:right;
+  width:80px;
+}
+/* form表单样式 包括text */
+#table_update input[type=text] ,#table_update select,#table_update input[type=date]{
+  width:125px;
+  height:26px;
+  border-radius:6px;
+  border:1px solid #6188AE;
+}
+/* submit reset 样式 */
+#table_update input[type=submit]{
+width:56px;
+border:0px;
+float:left;
+border-radius:6px;
+height:20px;
+background-color:#226699;
+color:#ffffff;
+}
+#table_update input[type=reset]{
+width:56px;
+border:0px;
+border-radius:6px;
+height:20px;
+background-color:#575B76;
+color:#ffffff;
+}
+/* 服务器验证时的 */
+#check_1{
+	position:absolute;   /* 脱离第0层  */
+	font-size:12px;
+	color:red
+}
